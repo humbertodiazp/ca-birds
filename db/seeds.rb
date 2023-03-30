@@ -14,4 +14,23 @@ SPECIES_AND_BIRDS = {
         Cinnamon Teal, Northern Shoveler, Gadwall, Eurasian Wigeon, American Wigeon, Canvasback, Redhead, Ring-necked Duck, 
         Tufted Duck, Greater Scaup, Lesser Scaup, Harlequin Duck, Oldsquaw, Surf Scoter, White-winged Scoter, Common Goldeneye, 
         Barrow’s Goldeneye, Bufflehead, Hooded Merganser, Common Merganser, Red-breasted Merganser, Ruddy Duck"},
+    :KITES_HAWKS_EAGLES_AND_ALLIES => {" Osprey, White-tailed Kite, Bald Eagle, Northern Harrier, Sharp-shinned Hawk, Cooper’s Hawk, Northern, 
+        Goshawk, Red-shouldered Hawk, Broad-winged Hawk, Swainson’s Hawk, Red-tailed Hawk, Ferruginous Hawk, 
+        Rough-legged Hawk, Golden Eagle"},
+    :SANDPIPERS_AND_PHALAROPES => { "Greater Yellowlegs, Lesser Yellowlegs, Spotted Redshank, Solitary Sandpiper, Willet, 
+        Wandering Tattler, Spotted Sandpiper, Whimbrel, Long-billed Curlew, Marbled Godwit, Ruddy Turnstone, Black Turnstone, 
+        Red Knot, Sanderling, Semipalmated Sandpiper, Western Sandpiper, Sandpiper, White-rumped Sandpiper, Baird’s Sandpiper, 
+        Pectoral Sandpiper, Dunlin, Stilt Sandpiper, Ruff, Short-billed Dowitcher, Long-billed Dowitcher, Common Snipe, Wilson’s Phalarope,
+        Red-necked Phalarope, Red Phalarope"},
+
+    :PIGEONS_TO_ROADRUNNERS => { "Rock Dove, Band-tailed Pigeon, Mourning Dove, Yellow-billed Cuckoo, Greater Roadrunner"},
+    :OWLS => {"Barn Owl, Western Screech Owl, Great Horned Owl, Burrowing Owl, Long-eared Owl, Short-eared Owl, Northern Saw-whet Owl "},
+    :FLYCATCHER => {
+        "Olive-sided Flycatcher, Western Wood-Pewee, Eastern Wood-Pewee, Willow Flycatcher, Least Flycatcher, Hammond’s Flycatcher, 
+        Dusky Flycatcher, Space Gray Flycatcher, Pacific-slope Flycatcher, Black Phoebe, Eastern Phoebe, Say’s Phoebeu, Vermillion Flycatcher,
+        Ash-throated Flycatcher, Tropical Kingbird, Cassin’s Kingbirdcas, Western Kingbird"},
+    :SHRIKES => {"Northern Shrike, Loggerhead Shrike"},
+    
+    
+        
    }.freeze

@@ -1,0 +1,2 @@
+class BirdType < ApplicationRecord
+end

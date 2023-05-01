@@ -7,7 +7,7 @@
 #   Character.create(name Luke, movie movies.first)
 
 
-SAN_JUAQUIN_BIRD_SPECIES = {
+SAN_JOAQUIN_BIRD_SPECIES = {
     "LOONS" => ["Red-throated Loon"],
     "GREBES" => ["Pied-billed Grebe"],
     "SWANS, GEESE AND DUCKS" => [
@@ -307,7 +307,7 @@ SAN_JUAQUIN_BIRD_SPECIES = {
 
 
 
-SAN_JUAQUIN_BIRD_SPECIES.each do |species_name, member_names|
+SAN_JOAQUIN_BIRD_SPECIES.each do |species_name, member_names|
   species = BirdType.create(
     name: species_name,
     

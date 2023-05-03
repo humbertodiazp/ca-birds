@@ -306,22 +306,26 @@ SAN_JOAQUIN_BIRD_SPECIES = {
 .freeze
 
 
-
-SAN_JOAQUIN_BIRD_SPECIES.each do |species_name, member_names|
-  species = BirdType.create(
-    name: species_name,
-    
-  )
-  member_names.each do |member_name|
-    BirdMember.create(
-      name: member_name,
-      description: "A #{member_name.downcase} is a type of bird.",
-      image_url: "https://example.com/#{species_name.downcase}.jpg",
-      bird_type: species
+def seed_species_and_members 
+  SAN_JOAQUIN_BIRD_SPECIES.each do |species_name, member_names|
+    species = BirdType.create(
+      name: species_name,
+      
     )
+    member_names.each do |member_name|
+      BirdMember.create(
+        name: member_name,
+        description: "A #{member_name.downcase} is a type of bird.",
+        image_url: "https://example.com/#{species_name.downcase}.jpg",
+        bird_type: species
+      )
+    end
   end
-end
+end 
 
+
+
+seed_species_and_members
 
 
 
